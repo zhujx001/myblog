@@ -1,0 +1,22 @@
+/* 自定义样式 - 空状态提示 */
+.post-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+  font-size: 16px;
+}
+
+.post-empty i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.post-empty p {
+  margin: 10px 0;
+}
+
+.post-empty-tip {
+  font-size: 14px;
+  color: #ccc;
+}

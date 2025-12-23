@@ -259,35 +259,23 @@ menus:
       pre: user
       weight: 2
 
-    - identifier: ai
-      name: AI资源
-      pageRef: /ai
-      pre: brain
+    - identifier: categories
+      name: 分类
+      pageRef: /categories
+      pre: folder
       weight: 3
 
-    - identifier: tech-debug
-      name: 技术调试
-      pageRef: /tech-debug
-      pre: code
+    - identifier: tags
+      name: 标签
+      pageRef: /tags
+      pre: tags
       weight: 4
-
-    - identifier: host-tools
-      name: 主机与工具
-      pageRef: /host-tools
-      pre: server
-      weight: 5
-
-    - identifier: misc
-      name: 杂谈/其他
-      pageRef: /misc
-      pre: comments
-      weight: 6
 
     - identifier: archives
       name: 归档
       pageRef: /archives
       pre: archive
-      weight: 7
+      weight: 5
 
     # - identifier: search
     #   name: 搜索
@@ -321,7 +309,7 @@ params:
 
   # 开启暗模式
   # Dark Mode
-  darkmode: true
+  darkmode: false
 
 
   # 站点基本信息

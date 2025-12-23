@@ -30,6 +30,12 @@ math = false
 mermaid = false
 +++
 
+## 引言
+
+Microsoft Store 安装的 WSL 默认存放在 C 盘，随着使用时间增长会占用大量空间。本文将详细介绍如何将 WSL2 + Ubuntu 22.04 完整迁移到其他盘符，包括启用、安装、导出、导入和验证的完整步骤。
+
+<!--more-->
+
 ## 一、为什么要迁移
 
 * Microsoft Store 安装的Ubuntu默认在C盘，太占空间
